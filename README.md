@@ -7,4 +7,8 @@ Tenemos un encuentro en línea cada dos jueves a las 7:00 PM hora de España
 
 [Abrir carpeta con las diapositivas de los encuentros](./diapositivas/)
 
+[Abrir carpeta con códigos de ejemplo](./codigo/)
+
+
+
 
