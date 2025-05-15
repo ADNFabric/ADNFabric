@@ -1,0 +1,59 @@
+// Contar los símbolos distintos
+Stocks
+| summarize tickers_distintos = dcount(Ticker)
+
+
+// Distribución por símbolo
+Stocks
+| summarize cantidad = count() by Ticker
+| sort by cantidad desc
+
+
+// Fechas mínima y máxima
+Stocks
+| summarize min(Date), max(Date)
+
+
+// Distribución por año
+Stocks
+| summarize cantidad = count() by year = datetime_part("year", Date)
+| sort by year asc
+
+
+// Distribución por año
+Stocks
+| summarize cantidad = count() by year = datetime_part("year", Date)
+| sort by year asc
+| render columnchart
+
+
+// Estadísticas básicas de la columna Close
+Stocks
+| summarize min(Close), max(Close), avg(Close), percentiles(Close, 50, 90, 95)
+
+
+// Cantidad de filas vacías para cada columna
+Stocks
+| summarize 
+    Vacios_Date = countif(isempty(Date)),
+    Vacios_Open = countif(isempty(Open)),
+    Vacios_High = countif(isempty(High)),
+    Vacios_Low = countif(isempty(Low)),
+    Vacios_Close = countif(isempty(Close)),
+    Vacios_AdjClose = countif(isempty(AdjClose)),
+    Vacios_Volume = countif(isempty(Volume)),
+    Vacios_Ticker = countif(isempty(Ticker))
+
+
+// Porcentaje de filas vacías para cada columna
+Stocks
+| summarize 
+    Total = count(),
+    PctVacios_Date = 100.0 * countif(isempty(Date)) / count(),
+    PctVacios_Open = 100.0 * countif(isempty(Open)) / count(),
+    PctVacios_High = 100.0 * countif(isempty(High)) / count(),
+    PctVacios_Low = 100.0 * countif(isempty(Low)) / count(),
+    PctVacios_Close = 100.0 * countif(isempty(Close)) / count(),
+    PctVacios_AdjClose = 100.0 * countif(isempty(AdjClose)) / count(),
+    PctVacios_Volume = 100.0 * countif(isempty(Volume)) / count(),
+    PctVacios_Ticker = 100.0 * countif(isempty(Ticker)) / count()    
