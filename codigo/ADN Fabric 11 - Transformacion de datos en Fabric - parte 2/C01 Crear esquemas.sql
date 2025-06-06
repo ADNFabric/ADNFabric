@@ -1,0 +1,7 @@
+CREATE SCHEMA [c01_bronce]
+GO
+
+CREATE SCHEMA [c02_plata];
+GO
+
+CREATE SCHEMA [c03_oro];

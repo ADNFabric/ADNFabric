@@ -1,0 +1,1 @@
+EXECUTE [c01_bronce].[cargar_tabla_desde_parquet] 'c01_bronce.Production_ProductCategory', 'https://dataxbidatalake.blob.core.windows.net/fabric/AdventureWorks/Production.ProductCategory.parquet'
