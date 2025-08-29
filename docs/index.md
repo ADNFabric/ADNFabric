@@ -22,10 +22,11 @@ layout: default
       </article>
     {% endfor %}
   {% assign published = published | compact %}
-  {% assign count = published | size %}
-  <!-- Debug: count={{ count }} -->
+    {% assign count = published | size %}
+    <!-- Debug: count={{ count }} -->
     {% if count < 3 %}
-      {% for i in (count+1)..3 %}
+      {% assign start = count | plus: 1 %}
+      {% for i in (start..3) %}
       <article class="card">
         <div class="placeholder">Próximamente</div>
         <h3>Sesión {{ i }}</h3>

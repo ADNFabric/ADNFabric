@@ -17,9 +17,9 @@ a:hover{color:var(--accent-2)}
 .nav a{margin-left:18px;font-weight:600;color:var(--text)}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800}
 .brand img{height:28px;width:auto}
-.hero{padding:28px 0 18px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(34,197,94,.08),rgba(0,0,0,0))}
-.hero h1{font-size:28px;margin:0 0 8px}
-.hero p{margin:0 0 12px;color:var(--muted);font-size:16px}
+.hero{padding:14px 16px 10px 16px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(34,197,94,.08),rgba(0,0,0,0))}
+.hero h1{font-size:22px;margin:0 0 8px}
+.hero p{margin:0 0 10px;color:var(--muted);font-size:14px}
 .btn{display:inline-block;border:1px solid var(--accent);padding:10px 16px;border-radius:10px;font-weight:700}
 .kicker{letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-size:12px;margin-bottom:8px}
 .section{padding:28px 0}
@@ -35,8 +35,9 @@ a:hover{color:var(--accent-2)}
 .icon{width:24px;height:24px;display:inline-block}
 @media (max-width: 860px){
   .card-grid{grid-template-columns:1fr}
-  .hero h1{font-size:22px}
-  .hero p{font-size:14px}
+  .hero{padding:10px 6px 6px 6px;}
+  .hero h1{font-size:18px}
+  .hero p{font-size:12px}
 }
 body{color:#111827}
 .header{background:rgba(255,255,255,.8)}
