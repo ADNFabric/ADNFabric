@@ -4,7 +4,7 @@ layout: default
 ---
 <section class="hero">
   <h1>Elevar el conocimiento para adoptar MS Fabric</h1>
-  <a class="btn" href="{{ '/sobre-la-iniciativa/' | relative_url }}">Conocer sobre la iniciativa</a>
+  <a class="btn" href="{{ '/sobre-la-iniciativa/' | relative_url }}">Sobre la iniciativa</a>
 </section>
 
 {% include upcoming.html %}
@@ -21,7 +21,9 @@ layout: default
         <p><a class="btn" href="{{ s.url | relative_url }}">Leer más</a></p>
       </article>
     {% endfor %}
-    {% assign count = published | size %}
+  {% assign published = published | compact %}
+  {% assign count = published | size %}
+  <!-- Debug: count={{ count }} -->
     {% if count < 3 %}
       {% for i in (count+1)..3 %}
       <article class="card">
