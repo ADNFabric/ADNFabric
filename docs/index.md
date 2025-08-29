@@ -3,10 +3,6 @@ layout: default
 title: Inicio
 ---
 
-<div class="banner" style="text-align:center;padding:1.5rem 0;">
-  <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo" style="max-width:240px;height:auto;">
-</div>
-
 <div class="posts-feed">
   {% for post in site.posts %}
   <article class="post-card" style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.25rem;">

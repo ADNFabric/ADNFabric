@@ -2,10 +2,19 @@
 ---
 @import "minima";
 
-.posts-feed { display: grid; gap: 1.25rem; }
-.post-card { display: flex; gap: 1rem; align-items: flex-start; }
-.post-card .thumb { flex: 0 0 140px; }
-.post-card img { width: 140px; height: 90px; object-fit: cover; border-radius: 8px; }
-.post-card .body { flex: 1; }
-.post-title { margin: 0 0 .25rem; }
-.post-excerpt { margin: .25rem 0 .5rem; }
+/* ancho más amplio */
+.wrapper { max-width: 1120px; padding-left: 1rem; padding-right: 1rem; }
+
+/* header con logo */
+.header-flex { display:flex; align-items:center; justify-content:space-between; }
+.site-logo img { height:44px; width:auto; display:block; }
+
+/* feed de posts responsivo (si usas el loop personalizado) */
+.posts-feed { display:grid; gap:1.25rem; grid-template-columns: 1fr; }
+@media (min-width: 900px) {
+  .posts-feed { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+.post-card { display:flex; gap:1rem; align-items:flex-start; }
+.post-card .thumb { flex:0 0 160px; }
+.post-card img { width:160px; height:100px; object-fit:cover; border-radius:8px; }
+.post-card .body { flex:1; }
