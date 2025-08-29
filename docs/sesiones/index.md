@@ -8,7 +8,7 @@ permalink: /sesiones/
 <section class="section">
   <h2>Todas las sesiones de la primera temporada</h2>
   <div class="card-grid">
-    {% assign published = site.sesiones | where_exp: 's', 's.published == true' | sort: 'order' %}
+    {% assign published = site.sesiones | where: "published", true | sort: 'order' %}
     {% for s in published %}
       <article class="card">
         <div class="placeholder">Imagen</div>
