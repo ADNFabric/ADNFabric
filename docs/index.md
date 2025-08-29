@@ -1,19 +1,36 @@
 ---
-layout: default
 title: Inicio
+layout: default
 ---
+<section class="hero">
+  <h1>ADN Fabric</h1>
+  <p>Compartiendo conocimiento sobre Microsoft Fabric</p>
+  <a class="btn" href="{{ '/sesiones/' | relative_url }}">Ver sesiones</a>
+</section>
 
-<div class="posts-feed">
-  {% for post in site.posts %}
-  <article class="post-card" style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.25rem;">
-    <a class="thumb" href="{{ post.url | relative_url }}" style="flex:0 0 140px;">
-      <img src="{{ post.image | default: '/assets/placeholder.jpg' | relative_url }}" alt="" style="width:140px;height:90px;object-fit:cover;border-radius:8px;">
-    </a>
-    <div class="body" style="flex:1;">
-      <h2 style="margin:0 0 .25rem;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p style="margin:.25rem 0 .5rem;">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
-    </div>
-  </article>
-  {% endfor %}
-</div>
+{% include upcoming.html %}
+
+<section class="section">
+  <h2>Sesiones de la primera temporada</h2>
+  {% assign published = site.sesiones | where_exp: 's', 's.published == true' | sort: 'order' %}
+  <div class="card-grid">
+    {% for s in published limit:3 %}
+      <article class="card">
+        <div class="placeholder">Imagen</div>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.summary }}</p>
+        <p><a class="btn" href="{{ s.url | relative_url }}">Leer más</a></p>
+      </article>
+    {% endfor %}
+    {% assign count = published | size %}
+    {% if count < 3 %}
+      {% for i in (count+1)..3 %}
+      <article class="card">
+        <div class="placeholder">Próximamente</div>
+        <h3>Sesión {{ i }}</h3>
+        <p>Publicamos una nueva sesión cada semana.</p>
+      </article>
+      {% endfor %}
+    {% endif %}
+  </div>
+</section>

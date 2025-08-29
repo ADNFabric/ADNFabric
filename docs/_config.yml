@@ -1,7 +1,21 @@
 title: ADN Fabric
-theme: minima
-show_excerpts: true
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+description: Resumen de sesiones y comunidad
+url: ""  # set your custom domain later
+baseurl: ""  # leave empty or set subpath
+permalink: pretty
+markdown: kramdown
+collections:
+  sesiones:
+    output: true
+    permalink: /sesiones/:path/
+defaults:
+  - scope:
+      path: ""
+      type: "sesiones"
+    values:
+      layout: sesion
+      published: true
+  - scope:
+      path: ""
+    values:
+      layout: default
