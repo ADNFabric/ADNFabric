@@ -3,8 +3,8 @@ title: Inicio
 layout: default
 ---
 <section class="hero">
-  <h1>ADN Fabric</h1>
-  <p>Compartiendo conocimiento sobre Microsoft Fabric</p>
+  <img src="{{ '/assets/img/banner.png' | relative_url }}" alt="ADN Fabric">
+  <p>Elevar el conocimiento para adoptar MS Fabric</p>
   <a class="btn" href="{{ '/sesiones/' | relative_url }}">Ver sesiones</a>
 </section>
 
