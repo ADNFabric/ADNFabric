@@ -3,9 +3,8 @@ title: Inicio
 layout: default
 ---
 <section class="hero">
-  <img src="{{ '/assets/img/banner.png' | relative_url }}" alt="ADN Fabric">
-  <p>Elevar el conocimiento para adoptar MS Fabric</p>
-  <a class="btn" href="{{ '/sesiones/' | relative_url }}">Ver sesiones</a>
+  <h1>Elevar el conocimiento para adoptar MS Fabric</h1>
+  <a class="btn" href="{{ '/sobre-la-iniciativa/' | relative_url }}">Conocer sobre la iniciativa</a>
 </section>
 
 {% include upcoming.html %}
