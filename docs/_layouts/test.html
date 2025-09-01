@@ -1,4 +1,14 @@
 ---
-layout: default
 ---
-{{ content }}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <h1>Test Layout</h1>
+    <p>Layout: {{ page.layout }}</p>
+    <p>Title: {{ page.title }}</p>
+    {{ content }}
+</body>
+</html>

@@ -3,6 +3,8 @@ description: Resumen de sesiones y comunidad
 url: ""  # set your custom domain later
 baseurl: ""  # leave empty or set subpath
 permalink: pretty
+layouts_dir: _layouts
+theme: null  # Disable the theme to use our own layouts
 markdown: kramdown
 collections:
   sesiones:
