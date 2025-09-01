@@ -1,8 +1,5 @@
----
-title: Sesión 1 - Introducción a Microsoft Fabric
-date: 2025-09-01
-published: true
----
+# ADNF 1
+
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?
 
 Te estarás preguntando, cómo puedes encajar tu en el mundo Fabric, pues
@@ -37,7 +34,7 @@ datos nativas y, a continuación, usar los informes interactivos de Power
 BI para proporcionar conclusiones informadas sobre los datos.
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image1.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image1.png"
 style="width:5.90556in;height:2.78056in"
 alt="Interfaz de usuario gráfica, Aplicación, Word El contenido generado por IA puede ser incorrecto." />
 
@@ -95,12 +92,12 @@ crear y consumir modelos semánticos e informes analíticos.
   de una funcionalidad
 
 > <img
-> src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image2.png"
+> src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image2.png"
 > style="width:5.90556in;height:2.97569in"
 > alt="Interfaz de usuario gráfica, Aplicación El contenido generado por IA puede ser incorrecto." />
 >
 > <img
-> src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image3.png"
+> src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image3.png"
 > style="width:5.90556in;height:2.88542in"
 > alt="Interfaz de usuario gráfica, Aplicación El contenido generado por IA puede ser incorrecto." />
 >
@@ -189,18 +186,18 @@ crear y consumir modelos semánticos e informes analíticos.
   distintos sistemas y equipos.
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image4.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image4.png"
 style="width:2.04401in;height:2.048in"
 alt="Logotipo, nombre de la empresa Descripción generada automáticamente" />
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image5.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image5.png"
 style="width:1.74611in;height:2.02751in"
 alt="Imagen de la pantalla de un celular con letras El contenido generado por IA puede ser incorrecto." />
 
 ### Almacenamientos:
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image6.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image6.png"
 style="width:2.52119in;height:0.62509in"
 alt="Icono El contenido generado por IA puede ser incorrecto." />
 
@@ -216,7 +213,7 @@ un almacenamiento de datos y varios almacenamientos con un mismo motor.
 ### Motores
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image7.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image7.png"
 style="width:2.47951in;height:0.56258in"
 alt="Icono El contenido generado por IA puede ser incorrecto." />
 
@@ -237,7 +234,7 @@ puede utilizar en distintos almacenamientos
 ### Componentes Experimentos y modelos de ML
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image8.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image8.png"
 style="width:1.19808in;height:0.53132in"
 alt="Icono El contenido generado por IA puede ser incorrecto." />
 
@@ -248,7 +245,7 @@ Fabric.
 ### Activator 
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image9.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image9.png"
 style="width:0.56258in;height:0.52091in"
 alt="Icono El contenido generado por IA puede ser incorrecto." />
 
@@ -274,7 +271,7 @@ Desde cero:
 - <https://app.fabric.microsoft.com/>
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image10.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image10.png"
 style="width:4.39645in;height:3.88596in"
 alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico El contenido generado por IA puede ser incorrecto." />
 
@@ -287,7 +284,7 @@ Iniciar sesión
 <https://app.powerbi.com/home?experience=power-bi>
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image11.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image11.png"
 style="width:3.16711in;height:2.20864in"
 alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico El contenido generado por IA puede ser incorrecto." />
 
@@ -330,7 +327,7 @@ parecida a la de Power BI.
 <https://www.microsoft.com/es-es/microsoft-cloud/solutions/intelligent-data-Platform>
 
 <img
-src="assets/img/sesiones/t1s01-introduccion-a-fabric/media/image12.png"
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image12.png"
 style="width:5.90556in;height:2.67917in"
 alt="Diagrama El contenido generado por IA puede ser incorrecto." />
 
