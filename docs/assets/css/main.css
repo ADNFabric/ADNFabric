@@ -35,11 +35,6 @@ a:hover{color:var(--accent-2)}
 .social{display:flex;gap:14px;align-items:center}
 .icon{width:24px;height:24px;display:inline-block}
 @media (max-width: 860px){
-}
-
-@media (min-width: 861px){
-  .menu-toggle{display:none !important;}
-}
   .card-grid{grid-template-columns:1fr}
   .hero{padding:10px 6px 6px 6px;}
   .hero h1{font-size:18px}
@@ -72,6 +67,25 @@ a:hover{color:var(--accent-2)}
 
 @media (min-width: 861px) {
   .menu-toggle { display: none !important; }
+  .nav {
+    position:static;
+    display:flex !important;
+    flex-direction:row;
+    background:none;
+    border:none;
+    border-radius:0;
+    box-shadow:none;
+    min-width:0;
+    padding:0;
+    gap:0;
+  }
+  .nav a {
+    margin-left:18px;
+    padding:0;
+    border-bottom:none;
+    color:var(--text);
+    font-size:16px;
+  }
 }
 body{color:#111827}
 .header{background:rgba(255,255,255,.8)}
