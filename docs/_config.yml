@@ -19,3 +19,4 @@ defaults:
       path: ""
     values:
       layout: default
+verbose: true
