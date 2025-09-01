@@ -3,7 +3,7 @@ title: ADN Fabric
 layout: default
 ---
 <section class="hero">
-  <h1>Elevar el conocimiento para adoptar MS Fabric</h1>
+  <h1>Elevar el conocimiento para adoptar Microsoft Fabric</h1>
   <a class="btn" href="{{ '/sobre-la-iniciativa/' | relative_url }}">Sobre la iniciativa</a>
 </section>
 
