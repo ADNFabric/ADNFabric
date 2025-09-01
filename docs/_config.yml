@@ -4,11 +4,17 @@ url: ""
 baseurl: ""
 permalink: pretty
 
-collections_dir: .
 collections:
   sesiones:
     output: true
     permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: sesiones
+    values:
+      layout: page
 markdown: kramdown
 collections:
   sesiones:

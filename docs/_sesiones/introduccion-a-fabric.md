@@ -4,7 +4,7 @@ date: 2025-09-25
 summary: "Introducción a la iniciativa ADN Fabric e introducción a Microsoft Fabric"
 order: 1
 published: true
-layout: test
+layout: page
 ---
 # ADNF 1
 
