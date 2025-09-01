@@ -3,7 +3,6 @@ title: Sesiones
 layout: default
 permalink: /listado-sesiones/
 ---
-{% include upcoming.html %}
 
 <section class="section">
   <h2>Todas las sesiones de la primera temporada</h2>

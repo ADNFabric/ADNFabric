@@ -7,6 +7,8 @@ layout: default
   <a class="btn" href="{{ '/sobre-la-iniciativa/' | relative_url }}">Sobre la iniciativa</a>
 </section>
 
+{% include upcoming.html %}
+
 <section class="section">
   <h2>Sesiones de la primera temporada</h2>
   {% assign published = site.sesiones | where: "published", true | sort: 'order' %}
