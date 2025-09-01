@@ -3,6 +3,9 @@
     <div class="brand">
       <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="ADN Fabric">
     </div>
+    <button class="menu-toggle" aria-label="Abrir menú" onclick="document.body.classList.toggle('menu-open')">
+      <img src="{{ '/assets/img/menu.svg' | relative_url }}" alt="Menú" width="28" height="28">
+    </button>
     <nav class="nav">
       <a href="{{ '/' | relative_url }}">Inicio</a>
       <a href="{{ '/sesiones/' | relative_url }}">Sesiones</a>
