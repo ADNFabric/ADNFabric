@@ -1,3 +1,8 @@
+---
+title: Sesión 1 - Introducción a Microsoft Fabric
+date: 2025-09-01
+published: true
+---
 # ADNF 1
 
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?
