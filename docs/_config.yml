@@ -14,20 +14,18 @@ defaults:
       path: ""
       type: sesiones
     values:
-      layout: page
+      layout: sesion
 markdown: kramdown
 collections:
   sesiones:
     output: true
     permalink: /:collection/:name
-    layout_dir: _layouts
 defaults:
   - scope:
       path: ""
       type: "sesiones"
     values:
       layout: sesion
-      published: true
   - scope:
       path: ""
     values:
