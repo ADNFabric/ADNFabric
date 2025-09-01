@@ -4,7 +4,6 @@ title: Sesión 1 - Introducción a Microsoft Fabric
 date: 2025-09-01
 excerpt: Introducción a la iniciativa ADN Fabric
 published: true
-layout: sesion
 ---
 # ADNF 1
 

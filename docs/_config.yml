@@ -1,8 +1,10 @@
 title: ADN Fabric
-description: Resumen de sesiones y comunidad
-url: ""
-baseurl: ""
+description: Elevar el conocimiento para adoptar MS Fabric
+url: ""          # o tu dominio, p.ej. https://adnfabric.github.io
+baseurl: ""      # si es project site, p.ej. "/ADNFabric"
 permalink: pretty
+markdown: kramdown
+verbose: true
 
 collections:
   sesiones:
@@ -11,23 +13,11 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: sesiones
-    values:
-      layout: sesion
-markdown: kramdown
-collections:
-  sesiones:
-    output: true
-    permalink: /:collection/:name
-defaults:
-  - scope:
-      path: ""
-      type: "sesiones"
+      path: ""              # todo el sitio
+      type: "sesiones"      # colección 'sesiones'
     values:
       layout: sesion
   - scope:
-      path: ""
+      path: ""              # resto de páginas
     values:
       layout: default
-verbose: true
