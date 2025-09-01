@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="es">
-{% include analytics.html %}
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% include analytics.html %}
 </head>
 <body>
   {% include header.html %}
