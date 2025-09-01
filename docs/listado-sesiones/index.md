@@ -1,7 +1,7 @@
 ---
 title: Sesiones
 layout: default
-permalink: /sesiones/
+permalink: /listado-sesiones/
 ---
 {% include upcoming.html %}
 
