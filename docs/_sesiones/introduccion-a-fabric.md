@@ -1,10 +1,9 @@
 ---
-title: "Sesión 1: Introducción a Microsoft Fabric"
+title: Sesion 1 - Introduccion a Microsoft Fabric
 date: 2025-09-25
-summary: "Introducción a la iniciativa ADN Fabric e introducción a Microsoft Fabric"
-order: 1
-published: true
+summary: Introduccion a la iniciativa ADN Fabric
 layout: page
+published: true
 ---
 # ADNF 1
 
