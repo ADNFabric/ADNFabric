@@ -34,6 +34,13 @@ a:hover{color:var(--accent-2)}
 .footer{border-top:1px solid var(--border);padding:28px 0;margin-top:28px;color:var(--muted)}
 .social{display:flex;gap:14px;align-items:center}
 .icon{width:24px;height:24px;display:inline-block}
+/* Responsive images for session content */
+.session-content img, .content img, .markdown-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 860px){
   .card-grid{grid-template-columns:1fr}
   .hero{padding:10px 6px 6px 6px;}
