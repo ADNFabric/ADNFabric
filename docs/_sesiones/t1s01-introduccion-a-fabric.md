@@ -203,31 +203,17 @@ Podemos ver los distintos componentes de Fabric de dos formas
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image4.png"
-<<<<<<< HEAD
  alt="" />
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image5.png"
  alt="" />
-=======
- 
-alt="" />
-<img
-src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image5.png"
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 ### Almacenamientos:
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image6.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 En Fabric tenemos diferentes formas de almacenamiento de los datos:
 Lakehouse, Almacén, SQL database, Casa de eventos (BD KQL), Modelo
@@ -242,12 +228,7 @@ un almacenamiento de datos y varios almacenamientos con un mismo motor.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image7.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 Los motores son los encargados de ingerir, validar, transformar y
 modelar los datos desde un amplio conjunto de orígenes de datos
@@ -267,12 +248,7 @@ puede utilizar en distintos almacenamientos
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image8.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 Ofrecen a los científicos de datos la posibilidad de crear, implementar
 y poner en marcha experimentos y modelos de aprendizaje automático desde
@@ -282,12 +258,7 @@ Fabric.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image9.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 Dentro de los componentes para el seguimiento de los datos está
 Activator, un componente con el que podemos definir reglas que activen
@@ -312,12 +283,7 @@ Desde cero:
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image10.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 - Desde Power BI Service:
 
@@ -329,12 +295,7 @@ Iniciar sesión
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image11.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 Cambia a: <https://app.powerbi.com/home?experience=fabric-developer>
 
@@ -376,12 +337,7 @@ parecida a la de Power BI.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image12.png"
-<<<<<<< HEAD
  alt="" />
-=======
- 
-alt="" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 ## Recorrido por las licencias y sugerencias de uso
 
