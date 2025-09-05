@@ -36,13 +36,7 @@ Los **científicos de datos** pueden integrar técnicas de ciencia de
 datos nativas y, a continuación, usar los informes interactivos de Power
 BI para proporcionar conclusiones informadas sobre los datos.
 
-<<<<<<< HEAD
 <img src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image1.png" alt="" />
-=======
-<img
-src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image1.png"
-alt="Interfaz de usuario gráfica" />
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 experiencias y los componentes integrados en Fabric.
 
@@ -97,7 +91,6 @@ crear y consumir modelos semánticos e informes analíticos.
   funcionalidad. De nuevo un mismo componente puede corresponder a más
   de una funcionalidad
 
-<<<<<<< HEAD
 <img src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image2.png" alt="" />
 
 <img
@@ -106,19 +99,6 @@ src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image3.png"
 
 Comparativa de agrupaciones de componente por experiencia vs
 funcionalidad
-=======
-> <img
-> src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image2.png"
-> alt="" />
->
-> <img
-> src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image3.png"
->  
-> alt="" />
->
-> Comparativa de agrupaciones de componente por experiencia vs
-> funcionalidad
->>>>>>> b6c74f18187188ade75fa245d9b28b2cd08508e0
 
 <table>
 <colgroup>
