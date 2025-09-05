@@ -3,8 +3,6 @@ title: Sesión 1 - Introducción a Microsoft Fabric
 date: 2025-09-01
 published: true
 ---
-# ADNF 1
-
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?
 
 Te estarás preguntando, cómo puedes encajar tu en el mundo Fabric, pues
@@ -389,6 +387,10 @@ En esta página se muestra una tabla con los valores.
 Para simplificar, he hecho un resumen para dar una idea. Los precios
 dependen de la región y del cambio con el USD por lo que recomiendo
 revisarlos en el enlace que muestro.
+
+<img
+src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/precios_fabric.png"
+ alt="Precios de Fabric en EUR para la región Oeste de Europa, actualizados al 14 de enero de 2025" />
 
 <table>
 <colgroup>
