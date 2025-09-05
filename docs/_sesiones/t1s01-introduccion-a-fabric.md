@@ -38,8 +38,7 @@ BI para proporcionar conclusiones informadas sobre los datos.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image1.png"
-style="width:5.90556in;height:2.78056in"
-alt="Interfaz de usuario gráfica, Aplicación, Word El contenido generado por IA puede ser incorrecto." />
+alt="Interfaz de usuario gráfica" />
 
 experiencias y los componentes integrados en Fabric.
 
@@ -96,13 +95,12 @@ crear y consumir modelos semánticos e informes analíticos.
 
 > <img
 > src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image2.png"
-> style="width:5.90556in;height:2.97569in"
-> alt="Interfaz de usuario gráfica, Aplicación El contenido generado por IA puede ser incorrecto." />
+> alt="" />
 >
 > <img
 > src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image3.png"
-> style="width:5.90556in;height:2.88542in"
-> alt="Interfaz de usuario gráfica, Aplicación El contenido generado por IA puede ser incorrecto." />
+>  
+> alt="" />
 >
 > Comparativa de agrupaciones de componente por experiencia vs
 > funcionalidad
@@ -190,19 +188,19 @@ crear y consumir modelos semánticos e informes analíticos.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image4.png"
-style="width:2.04401in;height:2.048in"
-alt="Logotipo, nombre de la empresa Descripción generada automáticamente" />
+ 
+alt="" />
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image5.png"
-style="width:1.74611in;height:2.02751in"
-alt="Imagen de la pantalla de un celular con letras El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 ### Almacenamientos:
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image6.png"
-style="width:2.52119in;height:0.62509in"
-alt="Icono El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 En Fabric tenemos diferentes formas de almacenamiento de los datos:
 Lakehouse, Almacén, SQL database, Casa de eventos (BD KQL), Modelo
@@ -217,8 +215,8 @@ un almacenamiento de datos y varios almacenamientos con un mismo motor.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image7.png"
-style="width:2.47951in;height:0.56258in"
-alt="Icono El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 Los motores son los encargados de ingerir, validar, transformar y
 modelar los datos desde un amplio conjunto de orígenes de datos
@@ -238,8 +236,8 @@ puede utilizar en distintos almacenamientos
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image8.png"
-style="width:1.19808in;height:0.53132in"
-alt="Icono El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 Ofrecen a los científicos de datos la posibilidad de crear, implementar
 y poner en marcha experimentos y modelos de aprendizaje automático desde
@@ -249,8 +247,8 @@ Fabric.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image9.png"
-style="width:0.56258in;height:0.52091in"
-alt="Icono El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 Dentro de los componentes para el seguimiento de los datos está
 Activator, un componente con el que podemos definir reglas que activen
@@ -275,8 +273,8 @@ Desde cero:
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image10.png"
-style="width:4.39645in;height:3.88596in"
-alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 - Desde Power BI Service:
 
@@ -288,8 +286,8 @@ Iniciar sesión
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image11.png"
-style="width:3.16711in;height:2.20864in"
-alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 Cambia a: <https://app.powerbi.com/home?experience=fabric-developer>
 
@@ -331,8 +329,8 @@ parecida a la de Power BI.
 
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/image12.png"
-style="width:5.90556in;height:2.67917in"
-alt="Diagrama El contenido generado por IA puede ser incorrecto." />
+ 
+alt="" />
 
 ## Recorrido por las licencias y sugerencias de uso
 
