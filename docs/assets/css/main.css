@@ -52,6 +52,7 @@ a:hover{color:var(--accent-2)}
   object-fit: cover;
   /* Ajusta la altura si quieres un recorte uniforme, por ejemplo: */
   max-height: 180px;
+  border: none !important;
 }
 
 @media (max-width: 860px){

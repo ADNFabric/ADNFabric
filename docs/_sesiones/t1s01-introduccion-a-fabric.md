@@ -2,6 +2,7 @@
 title: Sesión 1 - Introducción a Microsoft Fabric
 date: 2025-09-08
 published: true
+authors: Ana María Bisbé, Diana Aguilera, Nelson López
 imageurl: /assets/img/sesiones/t1s01-introduccion-a-fabric/media/portada.png
 ---
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?

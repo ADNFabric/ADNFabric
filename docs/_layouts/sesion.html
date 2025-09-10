@@ -6,6 +6,9 @@ layout: default
     <p class="kicker">Sesión de la primera temporada</p>
     <h1>{{ page.title }}</h1>
     <p class="meta">Publicado: {{ page.date | date: "%-d %B %Y" }}</p>
+    {% if page.authors %}
+    <p class="meta"><strong>Autores:</strong> {{ page.authors }}</p>
+    {% endif %}
     <div class="content">
       {{ content }}
     </div>
