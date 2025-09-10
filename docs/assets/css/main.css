@@ -55,6 +55,17 @@ a:hover{color:var(--accent-2)}
   border: none !important;
 }
 
+/* Eliminar borde punteado de la imagen de portada en .card y .placeholder */
+.card img, .placeholder img {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.placeholder {
+  border-style: solid;
+}
+
 @media (max-width: 860px){
   .card-grid{grid-template-columns:1fr}
   .hero{padding:10px 6px 6px 6px;}
