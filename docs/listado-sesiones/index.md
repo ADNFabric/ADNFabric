@@ -10,7 +10,7 @@ permalink: /listado-sesiones/
     {% assign published = site.sesiones | where: "published", true | sort: 'order' %}
     {% for s in published %}
       <article class="card">
-        <div class="placeholder">Imagen</div>
+        <div class="placeholder"><img src="{{ s.imageurl | relative_url }}"></div>
         <h3>{{ s.title }}</h3>
         <p>{{ s.summary }}</p>
         <p><a class="btn" href="{{ s.url | relative_url }}">Leer más</a></p>
