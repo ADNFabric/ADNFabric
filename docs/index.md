@@ -15,7 +15,7 @@ layout: default
   <div class="card-grid">
     {% for s in published limit:3 %}
       <article class="card">
-        <div class="placeholder">Imagen</div>
+        <div class="placeholder"><img src="{{ s.imageurl | relative_url }}"></div>
         <h3>{{ s.title }}</h3>
         <p><a class="btn" href="{{ s.url | relative_url }}">Leer más</a></p>
       </article>

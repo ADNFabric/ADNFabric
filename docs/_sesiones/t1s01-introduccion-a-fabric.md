@@ -1,7 +1,8 @@
 ---
 title: Sesión 1 - Introducción a Microsoft Fabric
-date: 2025-09-01
+date: 2025-09-08
 published: true
+imageurl: /assets/img/sesiones/t1s01-introduccion-a-fabric/media/portada.png
 ---
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?
 
@@ -376,120 +377,6 @@ revisarlos en el enlace que muestro.
 <img
 src="/assets/img/sesiones/t1s01-introduccion-a-fabric/media/precios_fabric.png"
  alt="Precios de Fabric en EUR para la región Oeste de Europa, actualizados al 14 de enero de 2025" />
-
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 16%" />
-<col style="width: 19%" />
-<col style="width: 21%" />
-<col style="width: 19%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>SKU</strong></th>
-<th><strong>CU</strong></th>
-<th><strong>SKU Power BI</strong></th>
-<th><p><strong>Precio Mes</strong></p>
-<p><strong>con Reserva</strong></p></th>
-<th><p><strong>Precio Mes</strong></p>
-<p><strong>Pago por uso</strong></p></th>
-<th><p><strong>Precio Hora</strong></p>
-<p><strong>Pago por uso</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>F2</td>
-<td>2</td>
-<td></td>
-<td>€183</td>
-<td>€308</td>
-<td>€0,423</td>
-</tr>
-<tr>
-<td>F4</td>
-<td>4</td>
-<td></td>
-<td>€366</td>
-<td>€616</td>
-<td>€0,845</td>
-</tr>
-<tr>
-<td>F8</td>
-<td>8</td>
-<td>EM/A1</td>
-<td>€733</td>
-<td>€1.232</td>
-<td>€1,689</td>
-</tr>
-<tr>
-<td>F16</td>
-<td>16</td>
-<td>EM2/A2</td>
-<td>€1.466</td>
-<td>€2.465</td>
-<td>€3,378</td>
-</tr>
-<tr>
-<td>F32</td>
-<td>32</td>
-<td>EM3/A3</td>
-<td>€2.932</td>
-<td>€4.930</td>
-<td>€6,755</td>
-</tr>
-<tr>
-<td>F64</td>
-<td>64</td>
-<td>P1/A4</td>
-<td>€5.864</td>
-<td>€9.861</td>
-<td>€13,510</td>
-</tr>
-<tr>
-<td>F128</td>
-<td>128</td>
-<td>P2/A5</td>
-<td>€11.728</td>
-<td>€19.723</td>
-<td>€27,019</td>
-</tr>
-<tr>
-<td>F256</td>
-<td>256</td>
-<td>P3/A6</td>
-<td>€23.457</td>
-<td>€39.447</td>
-<td>€54,037</td>
-</tr>
-<tr>
-<td>F512</td>
-<td>512</td>
-<td>P4/A7</td>
-<td>€46.914</td>
-<td>€78.894</td>
-<td>€108,074</td>
-</tr>
-<tr>
-<td>F1024</td>
-<td>1024</td>
-<td>P5/A8</td>
-<td>€93.828</td>
-<td>€157.788</td>
-<td>€216,148</td>
-</tr>
-<tr>
-<td>F2048</td>
-<td>2048</td>
-<td></td>
-<td>€187.655</td>
-<td>€315.576</td>
-<td>€432,296</td>
-</tr>
-</tbody>
-</table>
 
 <https://azure.microsoft.com/es-es/pricing/details/microsoft-fabric/>
 
