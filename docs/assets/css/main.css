@@ -41,6 +41,19 @@ a:hover{color:var(--accent-2)}
   display: block;
   margin: 0 auto;
 }
+
+/* Ajuste para imágenes dentro de tarjetas de sesiones en portada */
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  object-fit: cover;
+  /* Ajusta la altura si quieres un recorte uniforme, por ejemplo: */
+  max-height: 180px;
+}
+
 @media (max-width: 860px){
   .card-grid{grid-template-columns:1fr}
   .hero{padding:10px 6px 6px 6px;}
