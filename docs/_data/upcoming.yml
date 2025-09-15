@@ -1,5 +1,6 @@
 title: Llevando Fabric y Power BI al siguiente nivel con particionado
+speaker: Miguel Egea
 date: Miércoles 24 de septiembre de 2025
 time: "19:00"
-description: Veremos como desplegar modelos semánticos , generar particiones personalizadas y mantenerlas a través de Python y notebooks de Fabric.
-# cta_url: https://www.linkedin.com/events/7366871467495501825/
+description: Veremos como desplegar modelos semánticos, generar particiones personalizadas y mantenerlas a través de Python y notebooks de Fabric.
+cta_url: https://www.linkedin.com/events/7373362814998093824/
