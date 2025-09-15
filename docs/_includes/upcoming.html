@@ -3,8 +3,8 @@
   <div class="kicker">Próxima sesión</div>
   <div class="upcoming">
     <h3>{{ next.title }}</h3>
+    {% if next.speaker %}<h4>{{ next.speaker }}</h4>{% endif %}
     <p class="meta">{{ next.date }} · {{ next.time }} (España)</p>
-    {% if next.speaker %}<p>{{ next.speaker }}</p>{% endif %}
     <p>{{ next.description }}</p>
     {% if next.cta_url %}<p><a class="btn" href="{{ next.cta_url }}" target="_blank" rel="noopener">Ver detalles</a></p>{% endif %}
   </div>
