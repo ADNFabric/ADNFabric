@@ -1,0 +1,54 @@
+tengo este script tmdl, que se corresponde con una tabla que tiene particiones, en realidad es un archivo que se llama FActIntenetSales.tmdl
+este es el contenido 
+table FactInternetSales
+	lineageTag: 11540431-1748-465f-9dde-89a0d25f924f
+
+	column ProductKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b5514fb-1134-474b-9a47-b33ec35e4e4f
+		summarizeBy: count
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDateKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 8b355bd3-0275-4c41-a6e4-8c65356e54c6
+		summarizeBy: count
+		sourceColumn: OrderDateKey
+
+		annotation SummarizationSetBy = Automatic
+
+
+	partition FactInternetSales = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("A01P0717"),
+				    AdventureWorksDW2022 = Origen{[Name="AdventureWorksDW2022"]}[Data],
+				    dbo_FactInternetSales = AdventureWorksDW2022{[Schema="dbo",Item="FactInternetSales"]}[Data],
+				    #"Filas filtradas" = Table.SelectRows(dbo_FactInternetSales, each [OrderDate] >= RangeStartInt and [OrderDate] < RangStartInt)
+				in
+				    #"Filas filtradas"
+
+	
+	annotation PBI_ResultType = Table
+
+
+el código está escrito en un formato YAML, que sabes que se basa en la indentacion, por lo que cuando lo cambiemos, la indentación ha de seguir siendo perfecta. 
+
+Quiero hacer un programa python que cuando reciba como parametro el nombre de este archivo haga lo siguiente
+1.- Abra el archivo.
+2.- Copie cada una de las lineas con la indentacion adecuada hasta que llegue a la parte
+ 	partition
+3.- para la partition tiene que buscar si hay dos textos, RangeStartInt y RangeEndInt, y si existen ha de recrear las particiones  a partir de otro parámetro del programa. 
+4.- Tiene que respetar todas las lineas, y lo unico que cambiará es cada vez que encuentre el literal "RangeStartInt" por el valor correspondiente, y lo mismo para el literal "RangeEndInt"
+5.- El parametro será una lista de valores como esta "20000101,20050101,20100101,20150101,20200101,20230101,20240101,20250101"
+6.- El programa creará tantas particiones como valores separados por comas hay en el segundo parámetro mas 1.
+7 - en la primera particion cambiara RangeStartInt por el primer valor y RangeStartEnd por el siguiente, 
+8 - en las sucesivas particiones hará lo mismo, valor segundo, hasta valor tercero, tercero a cuarto y así hasta el último 
+9.- la ultima considerar un ultimo valor 99990101 para el rango final
+Replicará el parrafo partition y todo lo que le pertenece en el yml sustituyendo esos valores y cambiando el nombre de la particion así por ejemplo la primera que es partition FactInternetSales =M será partitionFactInternetSales2000_2005 =M
+¿ me puedes escribir el código?

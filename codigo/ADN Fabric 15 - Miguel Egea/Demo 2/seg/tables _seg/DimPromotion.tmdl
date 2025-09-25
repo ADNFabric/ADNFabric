@@ -1,0 +1,151 @@
+table DimPromotion
+	lineageTag: 8eacb621-5cc9-4e52-aebf-7e37cf317b14
+
+	column PromotionKey
+		dataType: int64
+		formatString: 0
+		lineageTag: b9cd16a2-12f1-4f68-8f6b-7b7575be74d2
+		summarizeBy: none
+		sourceColumn: PromotionKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column PromotionAlternateKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 52060498-6f3b-4cbf-95a2-a509ec364073
+		summarizeBy: none
+		sourceColumn: PromotionAlternateKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishPromotionName
+		dataType: string
+		lineageTag: 66dfe4e4-4fb2-4a65-91e0-cfcc7832b35a
+		summarizeBy: none
+		sourceColumn: EnglishPromotionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishPromotionName
+		dataType: string
+		lineageTag: d3d91974-4749-4a6b-850d-99d672f9f68d
+		summarizeBy: none
+		sourceColumn: SpanishPromotionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchPromotionName
+		dataType: string
+		lineageTag: 8f6b900a-a93b-4967-9399-df909b7c8213
+		summarizeBy: none
+		sourceColumn: FrenchPromotionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiscountPct
+		dataType: double
+		lineageTag: b74839e3-b54b-437e-915f-5d91806adabb
+		summarizeBy: none
+		sourceColumn: DiscountPct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column EnglishPromotionType
+		dataType: string
+		lineageTag: a870ba6d-6601-471f-9523-2fd3144bbb01
+		summarizeBy: none
+		sourceColumn: EnglishPromotionType
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishPromotionType
+		dataType: string
+		lineageTag: dbca3b11-66cb-4702-8843-bb856358fde4
+		summarizeBy: none
+		sourceColumn: SpanishPromotionType
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchPromotionType
+		dataType: string
+		lineageTag: 4278f5d4-8c95-4947-94e5-030e29d8b298
+		summarizeBy: none
+		sourceColumn: FrenchPromotionType
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishPromotionCategory
+		dataType: string
+		lineageTag: 1d3aa261-190a-4f32-9310-b42dc1c72eb7
+		summarizeBy: none
+		sourceColumn: EnglishPromotionCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishPromotionCategory
+		dataType: string
+		lineageTag: 145d1ada-0285-4514-ae1e-e7a9225a44db
+		summarizeBy: none
+		sourceColumn: SpanishPromotionCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchPromotionCategory
+		dataType: string
+		lineageTag: 583ed868-72c9-4e39-8ac0-0f1e28b3a8cf
+		summarizeBy: none
+		sourceColumn: FrenchPromotionCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column StartDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ab714689-8f11-4457-bd46-44d1845b4dd1
+		summarizeBy: none
+		sourceColumn: StartDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column EndDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 93ebfa9f-a074-4416-9a92-1f9d9a1b9ef2
+		summarizeBy: none
+		sourceColumn: EndDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column MinQty
+		dataType: int64
+		formatString: 0
+		lineageTag: 09de9b42-fd12-43a7-8c4a-f5d0b3385ffc
+		summarizeBy: none
+		sourceColumn: MinQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaxQty
+		dataType: int64
+		formatString: 0
+		lineageTag: 46ad4089-432a-4f7f-a0b5-2395b6ac1540
+		summarizeBy: none
+		sourceColumn: MaxQty
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimPromotion = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Databases("A01P0717"),
+				    AdventureWorksDW2022 = Origen{[Name="AdventureWorksDW2022"]}[Data],
+				    dbo_DimPromotion = AdventureWorksDW2022{[Schema="dbo",Item="DimPromotion"]}[Data]
+				in
+				    dbo_DimPromotion
+
+	annotation PBI_ResultType = Table
+
