@@ -1,6 +1,6 @@
-title: "Potenciando tus datos: Microsoft Fabric + Azure Databricks en acción"
-speaker: Nicolás Nakasone
-date: Miércoles 18 de febrero de 2026
-time: "20:00"
-#description: "Sesión sobre conceptos clave y recomendaciones de implementación para soluciones construidas sobre artefactos de Python y Spark, incluyendo aspectos como formas de combinación disponibles, herramientas y extensiones indispensables, optimizaciones de código y sugerencias de cara al desarrollo con Data Engineering."
-cta_url: https://www.linkedin.com/events/7426691485636595713/
+title: "Bases de datos de grafos en Microsoft Fabric"
+speaker: Inma Montesinos
+date: Miércoles 11 de marzo de 2026
+time: "19:00"
+description: "En los grafos las relaciones tienen tanta importancia como los datos, lo que convierte a las bases de datos de grafos en una de las opciones más interesantes a la hora de dotar de contexto a la inteligencia artificial. En esta sesión revisaremos los conceptos fundamentales de las bases de datos de grafos y el estado actual de las mismas en Microsoft Fabric."
+#cta_url: https://www.linkedin.com/events/7426691485636595713/
