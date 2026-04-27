@@ -2,6 +2,7 @@
 <section class="section">
   <div class="kicker">Próxima sesión</div>
   <div class="upcoming">
+    {% if next.image %}<p><img src="{{ next.image | relative_url }}" alt="{{ next.title }}" loading="lazy"></p>{% endif %}
     <h3>{{ next.title }}</h3>
     {% if next.speaker %}<h4>{{ next.speaker }}</h4>{% endif %}
     <p class="meta">{{ next.date }} · {{ next.time }} (España)</p>

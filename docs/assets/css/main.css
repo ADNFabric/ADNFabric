@@ -31,6 +31,13 @@ a:hover{color:var(--accent-2)}
 .card .meta{font-size:12px;color:var(--muted)}
 .placeholder{border:1px dashed #2b3242;background:rgba(255,255,255,.02);display:flex;align-items:center;justify-content:center;color:var(--muted);border-radius:14px;height:160px}
 .upcoming{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
+.upcoming img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:10px;
+  margin:0 0 12px;
+}
 .footer{border-top:1px solid var(--border);padding:28px 0;margin-top:28px;color:var(--muted)}
 .social{display:flex;gap:14px;align-items:center}
 .icon{width:24px;height:24px;display:inline-block}
