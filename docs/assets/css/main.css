@@ -33,10 +33,13 @@ a:hover{color:var(--accent-2)}
 .upcoming{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
 .upcoming img{
   width:100%;
+  max-width:760px;
+  max-height:420px;
   height:auto;
   display:block;
+  object-fit:contain;
   border-radius:10px;
-  margin:0 0 12px;
+  margin:0 auto 12px;
 }
 .footer{border-top:1px solid var(--border);padding:28px 0;margin-top:28px;color:var(--muted)}
 .social{display:flex;gap:14px;align-items:center}
@@ -75,6 +78,7 @@ a:hover{color:var(--accent-2)}
 
 @media (max-width: 860px){
   .card-grid{grid-template-columns:1fr}
+  .upcoming img{max-height:260px;}
   .hero{padding:10px 6px 6px 6px;}
   .hero h1{font-size:18px}
   .hero p{font-size:12px}
