@@ -1,6 +1,6 @@
 ---
 title: Sesión 3 - Almacenar datos en Microsoft Fabric
-date: 2025-02-20
+date: 2025-09-22
 published: true
 authors: Ana María Bisbé, Diana Aguilera, Nelson López
 imageurl: https://img.youtube.com/vi/KWy9Ks9hwFk/maxresdefault.jpg

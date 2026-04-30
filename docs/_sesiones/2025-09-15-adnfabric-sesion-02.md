@@ -1,6 +1,6 @@
 ---
 title: Sesión 2 - Integrar elementos en Microsoft Fabric
-date: 2025-02-06
+date: 2025-09-15
 published: true
 authors: Ana María Bisbé, Diana Aguilera, Nelson López
 imageurl: https://img.youtube.com/vi/Y9Glnu-DViM/maxresdefault.jpg
