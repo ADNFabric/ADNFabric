@@ -35,6 +35,6 @@ layout: default
     {% endif %}
   </div>
   <div style="margin-top:18px;text-align:right">
-    <a class="btn" href="{{ '/listado-sesiones/' | relative_url }}">Ver todas las sesiones</a>
+    <a class="btn" href="{{ '/sesiones/t1/' | relative_url }}">Ver todas las sesiones</a>
   </div>
 </section>

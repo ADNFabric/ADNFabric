@@ -1,7 +1,7 @@
 ---
 title: Sesiones
 layout: default
-permalink: /listado-sesiones/
+permalink: /sesiones/t1/
 ---
 
 <section class="section">
