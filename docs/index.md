@@ -11,7 +11,7 @@ layout: default
 
 <section class="section">
   <h2>Sesiones de la primera temporada</h2>
-  {% assign published = site.sesiones | where: "published", true | sort: 'order' %}
+  {% assign published = site.sesiones | where: "published", true | sort: 'date' | reverse %}
   <div class="card-grid">
     {% for s in published limit:3 %}
       <article class="card">
