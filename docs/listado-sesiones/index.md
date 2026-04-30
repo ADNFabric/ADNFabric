@@ -17,5 +17,4 @@ permalink: /listado-sesiones/
       </article>
     {% endfor %}
   </div>
-  <p style="margin-top:16px;color:var(--muted)">Cada semana publicamos una nueva sesión de la primera temporada. ¡Vuelve pronto para descubrir más!</p>
 </section>
