@@ -8,6 +8,28 @@
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
   {% assign css_version = site.time | date: '%s' %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ css_version }}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% elsif page.imageurl %}
+  <meta property="og:image" content="{{ page.imageurl | absolute_url }}">
+  {% endif %}
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  {% elsif page.imageurl %}
+  <meta name="twitter:image" content="{{ page.imageurl | absolute_url }}">
+  {% endif %}
+  
   {% include analytics.html %}
 </head>
 <body>

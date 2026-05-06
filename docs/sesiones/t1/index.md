@@ -2,6 +2,8 @@
 title: Sesiones
 layout: default
 permalink: /sesiones/t1/
+image: /assets/img/sesiones/t1s01-introduccion-a-fabric/media/portada.png
+description: Todas las sesiones de la primera temporada de ADN Fabric - Elevar el conocimiento para adoptar Microsoft Fabric
 ---
 
 <section class="section">
