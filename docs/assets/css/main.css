@@ -33,7 +33,7 @@ a:hover{color:var(--accent-2)}
 .upcoming{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
 .upcoming img{
   width:100%;
-  max-width:760px;
+  max-width:100%;
   max-height:420px;
   height:auto;
   display:block;
