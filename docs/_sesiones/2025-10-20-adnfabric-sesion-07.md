@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 7
 title: Sesión 7 - Exploración de datos en Microsoft Fabric (1ra parte)
 date: 2025-10-20
 published: true

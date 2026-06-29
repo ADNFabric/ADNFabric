@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 3
 title: Sesión 3 - Almacenar datos en Microsoft Fabric
 date: 2025-09-22
 published: true

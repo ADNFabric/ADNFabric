@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 5
 title: Sesión 5 - Ingesta de datos en Microsoft Fabric (2da parte)
 date: 2025-10-06
 published: true

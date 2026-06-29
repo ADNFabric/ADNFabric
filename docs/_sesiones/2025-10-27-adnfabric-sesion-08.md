@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 8
 title: Sesión 8 - Exploración de datos en Microsoft Fabric (2da parte)
 date: 2025-10-27
 published: true

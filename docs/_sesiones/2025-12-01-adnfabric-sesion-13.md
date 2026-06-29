@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 13
 title: Sesión 13 - Orquestación con Microsoft Fabric
 date: 2025-12-01
 published: true

@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 9
 title: Sesión 9 - Exploración de datos con Microsoft Fabric (3ra parte)
 date: 2025-11-03
 published: true

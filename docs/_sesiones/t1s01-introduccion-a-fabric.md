@@ -4,6 +4,8 @@ date: 2025-09-08
 published: true
 authors: Ana María Bisbé, Diana Aguilera, Nelson López
 imageurl: /assets/img/sesiones/t1s01-introduccion-a-fabric/media/portada.png
+season: 1
+order: 1
 ---
 ## ¿Qué roles se adoptan al trabajar en entorno Fabric?
 

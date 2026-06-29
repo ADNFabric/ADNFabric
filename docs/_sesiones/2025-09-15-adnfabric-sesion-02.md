@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 2
 title: Sesión 2 - Integrar elementos en Microsoft Fabric
 date: 2025-09-15
 published: true

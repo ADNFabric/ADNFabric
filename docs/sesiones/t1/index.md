@@ -9,7 +9,7 @@ description: Todas las sesiones de la primera temporada de ADN Fabric - Elevar e
 <section class="section">
   <h2>Todas las sesiones de la primera temporada</h2>
   <div class="card-grid">
-    {% assign published = site.sesiones | where: "published", true | sort: 'order' %}
+    {% assign published = site.sesiones | where: "published", true | where: "season", 1 | sort: 'order' %}
     {% for s in published %}
       <article class="card">
         <img src="{{ s.imageurl | relative_url }}">

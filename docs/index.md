@@ -10,7 +10,7 @@ layout: default
 {% include upcoming.html %}
 
 <section class="section">
-  <h2>Sesiones de la primera temporada</h2>
+  <h2>Últimas Sesiones</h2>
   {% assign published = site.sesiones | where: "published", true | sort: 'date' | reverse %}
   <div class="card-grid">
     {% for s in published limit:3 %}
@@ -35,6 +35,6 @@ layout: default
     {% endif %}
   </div>
   <div style="margin-top:18px;text-align:right">
-    <a class="btn" href="{{ '/sesiones/t1/' | relative_url }}">Ver todas las sesiones</a>
+    <a class="btn" href="{{ '/sesiones/' | relative_url }}">Ver todas las sesiones</a>
   </div>
 </section>

@@ -1,4 +1,6 @@
 ---
+season: 1
+order: 10
 title: Sesión 10 - Transformación de datos con Microsoft Fabric (1ra parte)
 date: 2025-11-10
 published: true
