@@ -3,7 +3,7 @@ title: Sesión 14 - Novedades en Fabric verano de 2025
 date: 2025-09-17
 published: true
 authors: Ana María Bisbé, Diana Aguilera, Nelson López
-imageurl: https://img.youtube.com/vi/do-t9GHgKjE/maxresdefault.jpg
+imageurl: https://img.youtube.com/vi/do-t9GHgKjE/sddefault.jpg
 season: 2
 order: 1
 ---

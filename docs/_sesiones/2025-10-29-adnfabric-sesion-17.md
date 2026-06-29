@@ -1,7 +1,7 @@
 ---
 season: 2
 order: 4
-title: Sesión 17 - Fabric Data Agents: habla con tus datos (y que te entiendan)
+title: "Sesión 17 - Fabric Data Agents: habla con tus datos (y que te entiendan)"
 date: 2025-10-29
 published: true
 authors: Toni Ferrá
