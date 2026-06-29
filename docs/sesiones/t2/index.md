@@ -2,7 +2,7 @@
 title: Temporada 2
 layout: default
 permalink: /sesiones/t2/
-image: https://img.youtube.com/vi/do-t9GHgKjE/maxresdefault.jpg
+image: https://img.youtube.com/vi/do-t9GHgKjE/sddefault.jpg
 description: Todas las sesiones de la segunda temporada de ADN Fabric - Elevar el conocimiento para adoptar Microsoft Fabric
 ---
 

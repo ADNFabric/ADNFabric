@@ -16,7 +16,7 @@ description: Explora todas las sesiones de ADN Fabric organizadas por temporadas
     </article>
     
     <article class="card">
-      <img src="https://img.youtube.com/vi/do-t9GHgKjE/maxresdefault.jpg" alt="Temporada 2">
+      <img src="https://img.youtube.com/vi/do-t9GHgKjE/sddefault.jpg" alt="Temporada 2">
       <h3>Temporada 2</h3>
       <p>Sesiones 14 a 21 profundizando en características avanzadas de Fabric, novedades de la plataforma y casos de uso especializados con invitados expertos.</p>
       <p><a class="btn" href="{{ '/sesiones/t2/' | relative_url }}">Ver todas las sesiones</a></p>
