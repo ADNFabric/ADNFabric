@@ -1,7 +1,7 @@
 ---
 season: 2
 order: 6
-title: Sesión 19 - Fabric: ¿Cuánto me cobra el portero?
+title: "Sesión 19 - Fabric: ¿Cuánto me cobra el portero?"
 date: 2025-11-26
 published: true
 authors: Laura Galea
