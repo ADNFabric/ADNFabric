@@ -3,10 +3,10 @@
   <div class="kicker">Próxima sesión</div>
   <div class="upcoming">
     {% if next.image %}<p><img src="{{ next.image | relative_url }}" alt="{{ next.title }}" loading="lazy"></p>{% endif %}
-    <h3>{{ next.title }}</h3>
+    {% if next.title %}<h3>{{ next.title }}</h3>{% endif %}
     {% if next.speaker %}<h4>{{ next.speaker }}</h4>{% endif %}
-    <p class="meta">{{ next.date }} · {{ next.time }} (España)</p>
-    <p>{{ next.description }}</p>
+    {% if next.date or next.time %}<p class="meta">{% if next.date %}{{ next.date }}{% endif %}{% if next.date and next.time %} · {% endif %}{% if next.time %}{{ next.time }} (España){% endif %}</p>{% endif %}
+    {% if next.description %}<p>{{ next.description }}</p>{% endif %}
     {% if next.cta_url %}<p><a class="btn" href="{{ next.cta_url }}" target="_blank" rel="noopener">Ver detalles</a></p>{% endif %}
   </div>
 </section>
