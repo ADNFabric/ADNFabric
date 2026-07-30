@@ -3,7 +3,13 @@ layout: default
 ---
 <div class="container-lg px-3 my-5 markdown-body">
   <article class="session-content">
-    <p class="kicker">Sesión de la primera temporada</p>
+    {% if page.season %}
+      {% assign temporadas = "primera,segunda,tercera,cuarta,quinta,sexta,séptima,octava,novena,décima" | split: "," %}
+      {% assign temp_index = page.season | minus: 1 %}
+      <p class="kicker">Sesión de la <a href="/sesiones/t{{ page.season }}/">{{ temporadas[temp_index] }} temporada</a> · <a href="/sesiones/">Todas las temporadas</a></p>
+    {% else %}
+      <p class="kicker">Sesión de la <a href="/sesiones/t1/">primera temporada</a> · <a href="/sesiones/">Todas las temporadas</a></p>
+    {% endif %}
     <h1>{{ page.title }}</h1>
     <p class="meta"><strong>Publicado:</strong> {% assign meses = "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic" | split: "," %}{% assign mes = page.date | date: "%-m" | minus: 1 %}{{ page.date | date: "%e" | strip }} de {{ meses[mes] }} de {{ page.date | date: "%Y" }}</p>
     {% if page.authors %}
