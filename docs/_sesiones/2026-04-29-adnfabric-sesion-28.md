@@ -34,14 +34,3 @@ También se puso en valor la dimensión hispanohablante de la comunidad, tanto p
 </iframe>
 
 &nbsp;
-
-## Diapositivas
-
-<iframe
-  src="https://docs.google.com/viewer?url=&embedded=true"
-  width="100%"
-  height="600"
-  frameborder="0">
-</iframe>
-
-[📥 Descargar diapositivas (PDF)]()

@@ -32,14 +32,3 @@ Para los profesionales de datos, los mensajes más relevantes fueron claros: **C
 </iframe>
 
 &nbsp;
-
-## Diapositivas
-
-<iframe
-  src="https://docs.google.com/viewer?url=&embedded=true"
-  width="100%"
-  height="600"
-  frameborder="0">
-</iframe>
-
-[📥 Descargar diapositivas (PDF)]()
