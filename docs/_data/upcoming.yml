@@ -1,17 +1,13 @@
-title: "Sesión 37 - Desarrollar en Microsoft Fabric con IA: agentes y Skills de Fabric en acción"
-speaker: "Nuric Ugarte"
-date: "Miércoles 21 de octubre de 2026"
+title: "Sesión 38 - Fabric Runtime 2.0 en la práctica: qué cambia en tus notebooks y Spark jobs"
+speaker: "Eneko Egiguren Gómez"
+date: "Miércoles 4 de noviembre de 2026"
 time: "19:00"
 description: |
-  ¡Seguimos a tope con la 4ª temporada de ADN Fabric!
+  Fabric Runtime 2.0 trae una nueva versión de Spark y cambios importantes en el motor de ejecución. 
   
-  El próximo miércoles 21 de octubre, a las 19:00 (hora de España), tendremos nuestra sesión 37, en la que nos acompañará Nuric Ugarte, de NuData Bi.
+  En esta sesión repasaremos qué novedades incorpora, cómo afecta a nuestros notebooks y Spark jobs (y a los pipelines que los orquestan), y qué conviene tener en cuenta para migrar con garantías. 
+    
+  Veremos ejemplos prácticos y buenas prácticas para sacarle partido desde el primer día.
   
-  🎯 Desarrollar en Microsoft Fabric con IA: agentes y Skills de Fabric en acción
-  
-  En esta sesión veremos cómo aprovechar la inteligencia artificial para facilitar y acelerar el desarrollo de soluciones en Microsoft Fabric, utilizando agentes de IA y Fabric Skills.
-  
-  Una oportunidad para descubrir cómo estas herramientas están cambiando nuestra forma de trabajar con Fabric.
-  
-image: /assets/img/upcoming/ADN_Fabric_Sesion_37_Nuric_Roca.png
-cta_url: https://www.linkedin.com/events/7516552036432281602/?viewAsMember=true
+image: /assets/img/upcoming/ADN_Fabric_Sesion_38_Eneko.png
+# cta_url: 
