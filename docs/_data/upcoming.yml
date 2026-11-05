@@ -1,13 +1,12 @@
-title: "Sesión 38 - Fabric Runtime 2.0 en la práctica: qué cambia en tus notebooks y Spark jobs"
-speaker: "Eneko Egiguren Gómez"
-date: "Miércoles 4 de noviembre de 2026"
+title: "Sesión 39 - Tu negocio no espera: datos, IoT y alertas en tiempo real con Microsoft Fabric"
+speaker: "Pablo Barrachina y Javier Buendía"
+date: "Miércoles 18 de noviembre de 2026"
 time: "19:00"
 description: |
-  Fabric Runtime 2.0 trae una nueva versión de Spark y cambios importantes en el motor de ejecución. 
+  Descubre cómo convertir datos en decisiones al instante con Microsoft Fabric Real-Time Intelligence. 
   
-  En esta sesión repasaremos qué novedades incorpora, cómo afecta a nuestros notebooks y Spark jobs (y a los pipelines que los orquestan), y qué conviene tener en cuenta para migrar con garantías. 
-    
-  Veremos ejemplos prácticos y buenas prácticas para sacarle partido desde el primer día.
+  Exploraremos las herramientas disponibles en Microsoft Fabric con una demo práctica de IoT. 
   
-image: /assets/img/upcoming/ADN_Fabric_Sesion_38_Eneko.png
+  Aprenderás cómo capturar eventos, monitorizar procesos y generar alertas automáticas para descubrir cuándo merece realmente la pena apostar por soluciones en "casi" tiempo real.
+image: /assets/img/upcoming/ADN_Fabric_Sesion_39_Pablo_Javier.png
 # cta_url: 
