@@ -1,12 +1,13 @@
-title: "Sesión 39 - Tu negocio no espera: datos, IoT y alertas en tiempo real con Microsoft Fabric"
-speaker: "Pablo Barrachina y Javier Buendía"
-date: "Miércoles 18 de noviembre de 2026"
+title: "Sesión 40 - Tu negocio no espera: datos, IoT y alertas en tiempo real con Microsoft Fabric""
+speaker: "Miguel Egea, Ruben Pertusa, Ricardo Rincón, Pau Sempere "
+date: "Miércoles 9 de diciembre de 2026"
 time: "19:00"
 description: |
-  Descubre cómo convertir datos en decisiones al instante con Microsoft Fabric Real-Time Intelligence. 
+  Un asistente de IA ya puede escribir SQL, generar un modelo semántico en TMDL o montar un pipeline en pocos minutos. Muchas veces lo hace bien. Otras veces se equivoca con la misma seguridad, y alguien tiene que verlo antes de que llegue a producción.
   
-  Exploraremos las herramientas disponibles en Microsoft Fabric con una demo práctica de IoT. 
+  En esta sesión cuento cómo uso la IA en proyectos reales de datos. Documento procesos ETL heredados reconstruyendo el linaje desde el origen hasta la tabla de hechos. Genero tests de reconciliación para una migración de proyectos en cualquier plataforma. Construyo y despliego modelos semánticos en Fabric y Power BI con TMDL y servidores MCP. Veremos qué tareas se hacen de verdad más rápido, cuáles no, y qué errores aparecen una y otra vez.
   
-  Aprenderás cómo capturar eventos, monitorizar procesos y generar alertas automáticas para descubrir cuándo merece realmente la pena apostar por soluciones en "casi" tiempo real.
-image: /assets/img/upcoming/ADN_Fabric_Sesion_39_Pablo_Javier.png
+  Algunas cosas no cambian: hay que entender el negocio y los datos, validar los resultados y responder de lo que se despliega. Lo que sí cambia es la forma de trabajar. Hay que dar buen contexto a los modelos, convertir lo que sabe el equipo en instrucciones que se puedan reutilizar y poner controles para comprobar lo que se genera.  
+
+image: /assets/img/upcoming/ADN_Fabric_Sesion_40_Miguel_Ruben_Ricardo_Pau.png
 # cta_url: 
